@@ -84,12 +84,20 @@ get_header(); ?>
                 </form>
             </div>
             <div class="col-md-6">
+            <?php while ( have_posts() ) : the_post(); 
+
+
+                 $email = get_field('email');
+                 $phone = get_field('phone');
+
+        ?>
             	<h4>Email</h4>
-                <p>brainzappedtv@gmail.com</p>
+                <p><?php echo $email; ?></p>
                 <h4>Phone</h4>
-                <p>214-284-3456</p>
+                <p><?php echo $phone; ?></p>
                 <h4>Address</h4>
                 <p> 6951 Virginia Pkwy, #322<br> Mailbox 13 <br>McKinney, TX 75071</p>
+            <?php endwhile; ?>
             </div>
         </div>
     </div>

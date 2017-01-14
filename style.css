@@ -162,7 +162,24 @@ p {
     font-family: 'Montserrat', sans-serif;
     color: purple;
 }
-.hero-image a.button-more:hover {
+.hero-image .button-more {
+    background-color: purple;
+    border: 1px solid purple;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 14px 0px;
+    cursor: pointer;
+    margin-bottom: 22px;
+    width: 175px;
+    border-radius: 0px;
+    padding: 14px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.hero-image .button-more:hover {
     background-color: #21ba39;
     border: 1px solid #21ba39;
     text-align: center;
@@ -260,6 +277,10 @@ em {
     color: #fff;
     font-size: 1.5em;
     line-height: 30px;
+    color: #fff;
+    font-size: 1.9em;
+    line-height: 30px;
+    margin-top: 70px;
 }
 
 .hero-image .content {
