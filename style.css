@@ -162,6 +162,24 @@ p {
     font-family: 'Montserrat', sans-serif;
     color: purple;
 }
+ .reel-button {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .1em;
+    text-shadow: #333 0.1em 0.1em -1.8em;
+    position: absolute;
+    left: 50%;
+    bottom: 95px;
+    margin-left: -85px;
+    width: 150px;
+    text-align: center;
+    transition: all 300ms;
+    z-index: 3;
+    background-color: transparent;
+}
 .hero-image .button-more {
     background-color: purple;
     border: 1px solid purple;
