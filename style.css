@@ -350,7 +350,7 @@ navbar
 ------------------------*/
 .navbar-inverse {
     background-color: rgba(255,255,255,0.95);
-  border-color: #fff;
+  border-color: rgba(255,255,255,0.95);
 }
 .navbar {
     position: relative;
@@ -380,6 +380,7 @@ navbar
     margin-bottom: 8px;
     background-color: transparent;
     background-image: none;
+    border-color: rgba(255,255,255,0.95);
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
       padding-top: 21px;
@@ -406,10 +407,10 @@ navbar
   background-color: #7b3976;
   }
 .navbar-inverse .navbar-toggle {
-  border-color: #fff;
+  border-color: rgba(255,255,255,.00) !important;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #fff;
+    border-color: rgba(255,255,255,0.95);
   
 }
 .navbar-toggle .icon-bar {
@@ -433,7 +434,7 @@ navbar
   
 }
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #fff;
+    background-color: transparent;
 }
 .sr-only:hover{
   color: #fff;
