@@ -65,14 +65,19 @@ get_header(); ?>
 	<div class="video-container">
    	  <video class="video" preload="true" autoplay loop muted>
         	<source src="<?php echo get_template_directory_uri(); ?>/video/bz-trailer-three.mp4" type="video/mp4">
-            <!--<source src="<?php echo get_template_directory_uri(); ?>/video/.webm" type="video/webm">
+           <!-- <source src="<?php echo get_template_directory_uri(); ?>/video/.webm" type="video/webm">
           <source src="<?php echo get_template_directory_uri(); ?>/video/.ogv" type="video/ogg">-->
           
       </video>
          <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter Site</button></a>
     </div>
 </div>
-
+<!--mobile Hero
+<div class="mobile-hero">
+  <div class="container">
+     <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter Site</button></a>
+  </div>
+</div>-->
 <!--<div class="home-footer">
   <div class="container">
     <div class="row">

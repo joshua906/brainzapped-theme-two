@@ -225,7 +225,7 @@ p {
     margin: 14px 0px;
     cursor: pointer;
     margin-bottom: 22px;
-    width: 200px;
+    width: 175px;
     border-radius: 0px;
     padding: 13px 0px;
     font-family: 'Montserrat', sans-serif;
@@ -296,7 +296,7 @@ em {
 }
 
 .hero-image {
-    background-image: url(../brainzapped-theme/resources/img/new-img.jpg);
+    background-image: url(../brainzapped-theme-two/resources/img/new-img.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@ em {
     padding: 7%;
 }
 .hero-image {
-    background-image: url(../brainzapped-theme/resources/img/new-img.jpg);
+    background-image: url(../brainzapped-theme-two/resources/img/new-img.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -531,6 +531,16 @@ video {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.mobile-hero{
+  background-image: url(../brainzapped-theme-two/resources/img/mobile-hero.jpg);
+  min-width: 100%;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: auto;
+  height: auto;
 }
 /*.header-video {
   position: relative;
@@ -1009,7 +1019,7 @@ img {
 footer
 ----------*/
 .footer {
-    background-image: url(../brainzapped-theme/resources/img/footer.jpg);
+    background-image: url(../brainzapped-theme-two/resources/img/footer.jpg);
     background-size: cover;
     background-color: #240828;
     color: #fff;
@@ -1090,7 +1100,7 @@ playlist
     text-decoration: none;
 }
 .video-header {
-  background-image:url(../brainzapped-theme/resources/img/background.jpg);
+  background-image:url(../brainzapped-theme-two/resources/img/background.jpg);
   background-size: cover;
   background-repeat:no-repeat;
   background-attachment:fixed;}
@@ -1198,7 +1208,7 @@ playlist
   padding: 25px 0px;
 }
 .contact-header {
-  background-image: url(../brainzapped-theme/resources/img/kids-contact.jpg);
+  background-image: url(../brainzapped-theme-two/resources/img/kids-contact.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
