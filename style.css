@@ -180,6 +180,24 @@ p {
     z-index: 3;
     background-color: transparent;
 }
+.reel-button:hover {
+    color: purple;
+    border: 1px solid purple;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: .1em;
+    text-shadow: #333 0.1em 0.1em -1.8em;
+    position: absolute;
+    left: 50%;
+    bottom: 95px;
+    margin-left: -85px;
+    width: 150px;
+    text-align: center;
+    transition: all 300ms;
+    z-index: 3;
+    background-color: transparent;
+}
 .hero-image .button-more {
     background-color: purple;
     border: 1px solid purple;
@@ -452,9 +470,9 @@ navbar
 
 @media only screen and (max-width: 768px) {
 .navbar-header {
-  -webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+  /*-webkit-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
     -moz-box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
-    box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);
+    box-shadow: 4px 4px 7px 0 rgba(0,0,0,.24);*/
   height: 90px;
   }
   .navbar-nav {

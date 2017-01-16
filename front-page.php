@@ -69,11 +69,11 @@ get_header(); ?>
           <source src="<?php echo get_template_directory_uri(); ?>/video/.ogv" type="video/ogg">-->
           
       </video>
-         <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter</button></a>
+         <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter Site</button></a>
     </div>
 </div>
 
-<div class="home-footer">
+<!--<div class="home-footer">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -82,3 +82,4 @@ get_header(); ?>
     </div>
   </div>
 </div>
+-->

@@ -57,7 +57,7 @@ get_header(); ?>
 	                    	<h4 class="category-text"><?php the_category(', ') ?></h4>
 	                      
 	                        <h4><?php the_title(); ?></h4>
-	                        <p><?php the_excerpt(); ?></p>
+	                        <p><?php echo wp_trim_words( get_the_content(), 15, '...' ); ?></p>
 	                        <a href="<?php the_permalink(); ?>"><button class="button">play video</button></a><br>
 	                                           <a href="https://twitter.com/share?
                               url=brainzapped.com
