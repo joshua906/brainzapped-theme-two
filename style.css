@@ -1018,6 +1018,30 @@ img {
 /*----------------------------
 footer
 ----------*/
+
+footer p {
+  color:#fff;
+}
+.home-footer{
+    background-color: #4a0243;
+    width: 100%;
+    color: #fff;
+}
+.home-screen-footer{
+    background-color: rgba(255,255,255,0.95);
+    z-index: 3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+}
+}
+.home-footer p {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
 .footer {
     background-image: url(../brainzapped-theme-two/resources/img/footer.jpg);
     background-size: cover;

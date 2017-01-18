@@ -70,6 +70,7 @@ get_header(); ?>
           
       </video>
          <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter Site</button></a>
+
     </div>
 </div>
 <!--mobile Hero
@@ -78,13 +79,12 @@ get_header(); ?>
      <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter Site</button></a>
   </div>
 </div>-->
-<!--<div class="home-footer">
+<div class="home-screen-footer">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>&copy; Brain Zapped 2017 // <i class="fa fa-youtube" aria-hidden="true"></i> // Made by matthews designs</p> 
+        <p style=" color: purple; font-size: 11px; padding: 12px 0px 10px 0px; text-align: center; text-transform: uppercase;">&copy; Brain Zapped 2017 // brainzappedtv@gmail.com // 214-284-3456 // Made by matthews designs  </p> 
       </div>
     </div>
   </div>
 </div>
--->

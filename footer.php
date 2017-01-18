@@ -33,7 +33,7 @@
             <div class="col-xs-12 col-sm-4 col-md-4">
                 <h3>Overview</h3>
                 <ul>
-                	<li><p><a href="<?php echo get_template_directory_uri(); ?>/front-page">Home</a></p></li>
+                	<li><p><a href="<?php echo get_page_link(124);?>">Home</a></p></li>
                     <li><p><a href="<?php echo get_page_link(8); ?>">Videos</a></p></li>
                     <li><p><a href="<?php echo get_page_link(68); ?>">Products</a></p></li>
                     <li><p><a href="<?php echo get_page_link(39); ?>">Contact</a></p></li>
@@ -46,6 +46,15 @@
     </div>
 </div>
 
+</div>
+<div class="home-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+         <p style=" color: #fff; font-size: 11px; padding: 12px 0px 10px 0px; text-align: center; text-transform: uppercase;">&copy; Brain Zapped 2017 // brainzappedtv@gmail.com // 214-284-3456 // Made by matthews designs  </p> 
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -65,7 +74,15 @@
       
     </script>-->
 <script>
- 
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90418058-1', 'auto');
+  ga('send', 'pageview');
+
 
 </script>
  <?php wp_footer(); ?>

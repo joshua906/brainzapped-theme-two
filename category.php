@@ -50,7 +50,7 @@
 	  					<div class="container-card-video">
 	                    	<h5 class="category-text"><?php the_category(','); ?></h5>
 	                      
-	                        <h4><?php the_title(); ?></h4>
+	                        <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 	                        <p><?php the_excerpt(); ?></p>
 	                         <a href="<?php the_permalink(); ?>"><button class="button">play video</button></a><br>
                             <i class="fa fa-twitter fa-2x" aria-hidden="true"></i><i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
