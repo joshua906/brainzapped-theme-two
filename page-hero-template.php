@@ -109,7 +109,7 @@ get_header(); ?>
         <div class="col-xs-12 col-sm-4 col-md-4">
               <div class="card">
                   <div class="bw pic">
-                      <a href="<?php the_permalink(); ?>"><?php echo do_shortcode("[featured-video-plus]"); ?></a>
+                      <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                       <!--<span class="vlog-format-action small"><i class="fa fa-play"></i></span>-->
                     </div>
             <div class="container-card">
@@ -255,7 +255,7 @@ get_header(); ?>
           <div class="ms-item col-xs-12 col-sm-6 col-md-6">
               <div class="card-playlist">
                <div class="bw pic">
-             <?php the_post_thumbnail(); ?>
+             <?php echo do_shortcode("[featured-video-plus]"); ?>
                 </div>
             <div class="container-card-playlist">
                     <p><em><?php the_date(); ?></em></p>

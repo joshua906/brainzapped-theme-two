@@ -22,7 +22,7 @@ get_header(); ?>
 <div class="header-container">
 	<div class="video-container">
    	  <video class="video" preload="true" autoplay loop muted>
-        	<source src="<?php echo get_template_directory_uri(); ?>/video/bz-trailer-three.mp4" type="video/mp4">
+        	<source src="<?php echo get_template_directory_uri(); ?>/video/bz-trailer-two.mp4" type="video/mp4">
       </video>
          <a href="<?php echo get_page_link(124); ?>"><button class="reel-button">Enter Site</button></a>
 
