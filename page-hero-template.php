@@ -237,49 +237,6 @@ get_header(); ?>
     </div>
 </div>
 
-<!-- playlist-Name of playlist-->
-<div class="playlist">
-<div class="container">
-  <div class="row">
-      <div class="col-md-12">
-          <h3>PLAYLIST- "BZ SCIENCE VOLUME ONE"</h3>
-        </div>
-    </div>
-</div>
-  <div class="container">
-      <div class="row" id="ms-container">
-
-       <?php query_posts('category_name=bz-science-volume-one'); ?>
-        <?php while ( have_posts() ) : the_post(); ?>
-          
-          <div class="ms-item col-xs-12 col-sm-6 col-md-6">
-              <div class="card-playlist">
-               <div class="bw pic">
-             <?php echo do_shortcode("[featured-video-plus]"); ?>
-                </div>
-            <div class="container-card-playlist">
-                    <p><em><?php the_date(); ?></em></p>
-            <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                      <p><?php echo wp_trim_words( get_the_content(), 14, '...' ); ?></p>
-                      <h6><a href="<?php the_permalink(); ?>">PLAY VIDEO</a></h6>
-            </div>
-        </div>
-            </div>
-            
-        <?php endwhile; ?>
-        </div>
-    </div>
-</div>
-
-<div class="more-button">
-  <div class="container">
-      <div class="row">
-          <div class="col-md-12">
-             <a href="<?php echo get_page_link(8); ?>"><button class="button-more text-center">view all videos &#8594;</button></a>
-            </div>
-        </div>
-    </div>
-</div>
 
  <script>
         
